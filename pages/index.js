@@ -3,9 +3,6 @@ import Card from '../components/ui/Card'
 import classes from '../components/meetups/MeetupItem.module.css'
 
 function HomePage() {
-    function addMeetupHandler(enteredMeetupData) {
-
-    }
 
     return (
         <div>
