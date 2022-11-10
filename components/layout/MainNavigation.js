@@ -22,8 +22,7 @@ function MainNavigation() {
       <div >
         <Link href='/' className={classes.logo}>React Meetups</Link>
       </div>
-      <Button text1="Checkout" maxWidth="75px" onClickHandler={checkoutCallback} />
-      <Button text1="Your" text2="Orders" maxWidth="70px" onClickHandler={ordersCallback} />
+      <Button text1="Profile" maxWidth="70px" onClickHandler={ordersCallback} />
     </header>
   );
 }
