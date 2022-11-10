@@ -8,7 +8,12 @@ function HomePage() {
         <div>
             <div className={classes.content}>
                 <Card>
-                    <Link href='/'>Home</Link>
+                    <Link href='/profile'>Profile</Link>
+                </Card>
+            </div>
+            <div className={classes.content}>
+                <Card>
+                    <Link href='/login-page'>Login Page</Link>
                 </Card>
             </div>
             <div className={classes.content}>
@@ -24,6 +29,16 @@ function HomePage() {
             <div className={classes.content}>
                 <Card>
                     <Link href='/meetup-list'>Meetups</Link>
+                </Card>
+            </div>
+            <div className={classes.content}>
+                <Card>
+                    <a href="/api/auth/login">Login</a>
+                </Card>
+            </div>
+            <div className={classes.content}>
+                <Card>
+                    <a href="/api/auth/logout">Logout</a>
                 </Card>
             </div>
         </div>
