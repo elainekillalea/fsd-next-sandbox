@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import Card from '../components/ui/Card'
 import classes from '../components/meetups/MeetupItem.module.css'
+import useUser from '@auth0/nextjs-auth0';
 
 function HomePage() {
 
     return (
+
         <div>
             <div className={classes.content}>
                 <Card>
